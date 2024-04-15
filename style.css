@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #F7418F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 160px;
+}
+
+.logo{
+    background-image: url("LOgo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.border2:hover{
+    border: 1.5px solid white;
+    padding: 2px;
+}
+
+
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-box {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 4px solid #000;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel-instragram {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    font-weight: 790;
+}
+
+
+.panel-instragram i {
+    font-size: 1.7rem;
+    padding-right: 6px;
+}
+
+.panel-youtube {
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    font-weight: 790;
+}
+
+.panel-youtube i {
+    font-size: 1.7rem;
+    padding-right: 6px;
+}
+
+.panel-instragram a {
+    color: white;
+    text-decoration: none;
+}
+
+.panel-youtube a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-signin a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-return a {
+    color: white;
+    text-decoration: none;
+}
